@@ -29,7 +29,7 @@ services:
       dockerfile: Dockerfile
     container_name: exam-service
     ports:
-      - "518:518"
+      - "518:8001"
     depends_on:
       postgresdb:
         condition: service_healthy
